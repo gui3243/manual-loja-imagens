@@ -1,0 +1,65 @@
+
+# 📋 INSTRUÇÕES PARA UPLOAD MANUAL
+
+## Passo 1: Criar Repositório (se ainda não criou)
+1. Acesse: https://github.com/new
+2. Nome: manual-loja-imagens
+3. Marque como "Public"
+4. Marque "Add a README file"
+5. Clique "Create repository"
+
+## Passo 2: Upload dos Arquivos
+
+### Via Interface Web:
+1. Acesse seu repositório: https://github.com/gui3243/manual-loja-imagens
+2. Clique em "Add file" > "Upload files"
+3. Arraste TODOS os arquivos da pasta "github_upload_prep" para a área de upload
+4. Aguarde o upload completar
+5. Escreva uma mensagem: "Adicionar imagens do Manual Loja Padrões"
+6. Clique "Commit changes"
+
+### Estrutura que deve ficar no GitHub:
+```
+manual-loja-imagens/
+├── README.md
+├── index.html
+├── 1.1_-_Contratação_github.json
+└── imagens/
+    └── 1.1_-_Contratação/
+        ├── 1.1_-_Contratação_pagina_1_img_1.png
+        ├── 1.1_-_Contratação_pagina_2_img_1.png
+        └── ... (todas as 164 imagens)
+```
+
+## Passo 3: Ativar GitHub Pages
+1. No seu repositório, vá em "Settings"
+2. Role até "Pages" (menu lateral esquerdo)
+3. Em "Source", selecione "Deploy from a branch"
+4. Branch: "main"
+5. Folder: "/ (root)"
+6. Clique "Save"
+
+## Passo 4: Aguardar Ativação
+- GitHub Pages demora 5-10 minutos para ativar
+- Acesse: https://gui3243.github.io/manual-loja-imagens
+- Se aparecer a página, está funcionando!
+
+## Passo 5: Testar URLs
+- Acesse: https://gui3243.github.io/manual-loja-imagens/index.html
+- Se a imagem de teste carregar, as URLs estão funcionando
+- URLs das imagens: https://gui3243.github.io/manual-loja-imagens/imagens/1.1_-_Contratação/[arquivo.png]
+
+## 🎯 Resultado Final
+Suas imagens estarão disponíveis publicamente em:
+https://gui3243.github.io/manual-loja-imagens/imagens/1.1_-_Contratação/[nome-do-arquivo.png]
+
+## 📁 Arquivos Preparados
+- README.md: Documentação do repositório
+- index.html: Página de teste
+- 1.1_-_Contratação_github.json: JSON com URLs atualizadas
+- imagens/: Pasta com todas as imagens
+
+## ⚠️ IMPORTANTE
+- Repositório deve ser PÚBLICO
+- GitHub Pages deve estar ATIVO
+- Aguarde alguns minutos após ativar
